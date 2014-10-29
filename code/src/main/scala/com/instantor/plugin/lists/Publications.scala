@@ -5,7 +5,7 @@ import sbt._
 
 trait Publications {
   object Api {
-    val Shared  = "com.instantor.bsp" % "bspdsapi-apishared" % "0.5.0"
+    val Shared  = "com.instantor.bsp" % "bspdsapi-apishared" % "0.5.2"
   }
 
   object BspClientApi {
@@ -13,8 +13,9 @@ trait Publications {
   }
 
   object BspCommon {
-    val Commons = "com.instantor.bsp" % "bspcommon-commons" % "0.9.0"
-    val Bases   = "com.instantor.bsp" % "bspcommon-bases"   % "0.9.0"
+    val Commons   = "com.instantor.bsp" % "bspcommon-commons" % "0.9.0"
+    val Bases     = "com.instantor.bsp" % "bspcommon-bases"   % "0.9.2"
+    val Transport = "com.instantor.bsp" % "bspcommon-bases"   % "0.9.0"
   }
 
   object BspOtpProvider {
@@ -57,6 +58,7 @@ trait Publications {
     val Search     = "com.instantor.totalog" % "totalog-search"     % "0.6.0"
   }
 
+  @deprecated("Now project dependency in BspCommon.", "0.3.66")
   object Transport {
     val Common = "com.instantor.bsp" % "bspdsapi-transportcommon" % "0.5.0"
   }
