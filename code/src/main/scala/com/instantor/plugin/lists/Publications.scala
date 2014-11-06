@@ -5,7 +5,7 @@ import sbt._
 
 trait Publications {
   object Api {
-    val Shared  = "com.instantor.bsp" % "bspdsapi-apishared" % "0.5.2"
+    val Shared  = "com.instantor.bsp" % "bspdsapi-apishared" % "0.5.3"
   }
 
   object BspClientApi {
@@ -13,9 +13,9 @@ trait Publications {
   }
 
   object BspCommon {
-    val Commons   = "com.instantor.bsp" % "bspcommon-commons" % "0.9.0"
-    val Bases     = "com.instantor.bsp" % "bspcommon-bases"   % "0.9.2"
-    val Transport = "com.instantor.bsp" % "bspcommon-bases"   % "0.9.0"
+    val Commons   = "com.instantor.bsp" % "bspcommon-commons" % "0.9.7"
+    val Bases     = "com.instantor.bsp" % "bspcommon-bases"   % "0.9.7"
+    val Transport = "com.instantor.bsp" % "bspcommon-bases"   % "0.9.7"
   }
 
   object BspOtpProvider {
@@ -28,7 +28,7 @@ trait Publications {
   }
 
   object Consolidator {
-    val Model = "com.instantor.bsp" % "bspdsapi-consolidator" % "0.5.0"
+    val Model = "com.instantor.bsp" % "bspdsapi-consolidator" % "0.5.3"
   }
 
   object EDS {
