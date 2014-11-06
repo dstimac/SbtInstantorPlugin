@@ -13,9 +13,9 @@ trait Publications {
   }
 
   object BspCommon {
-    val Commons   = "com.instantor.bsp" % "bspcommon-commons" % "0.9.7"
-    val Bases     = "com.instantor.bsp" % "bspcommon-bases"   % "0.9.7"
-    val Transport = "com.instantor.bsp" % "bspcommon-bases"   % "0.9.7"
+    val Commons   = "com.instantor.bsp" % "bspcommon-commons" % "0.9.9"
+    val Bases     = "com.instantor.bsp" % "bspcommon-bases"   % "0.9.9"
+    val Transport = "com.instantor.bsp" % "bspcommon-bases"   % "0.9.9"
   }
 
   object BspOtpProvider {
@@ -54,7 +54,7 @@ trait Publications {
 
   object TotaLog {
     val Interfaces = "com.instantor.totalog" % "totalog-interfaces" % "0.6.0"
-    val Transport  = "com.instantor.totalog" % "totalog-transport"  % "0.6.0"
+    val Transport  = "com.instantor.totalog" % "totalog-transport"  % "0.6.1"
     val Search     = "com.instantor.totalog" % "totalog-search"     % "0.6.0"
   }
 
