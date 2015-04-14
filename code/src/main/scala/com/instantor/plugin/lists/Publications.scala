@@ -5,17 +5,18 @@ import sbt._
 
 trait Publications {
   object Api {
-    val Shared  = "com.instantor.bsp" % "bspdsapi-apishared" % "0.5.3"
+    val Shared  = "com.instantor.bsp" % "bspdsapi-apishared" % "0.6.0"
   }
 
   object BspClientApi {
-    val Model = "com.instantor.bsp" % "bspclientapi-model" % "0.2.0"
+    val Model = "com.instantor.bsp" % "notificatorclient-generated"      % "0.3.0"
+    val Core  = "com.instantor.bsp" % "notificatorclient-generated_2.10" % "0.3.0"
   }
 
   object BspCommon {
-    val Commons   = "com.instantor.bsp" % "bspcommon-commons" % "0.9.7"
-    val Bases     = "com.instantor.bsp" % "bspcommon-bases"   % "0.9.7"
-    val Transport = "com.instantor.bsp" % "bspcommon-bases"   % "0.9.7"
+    val Commons   = "com.instantor.bsp" % "bspcommon-commons"   % "0.11.3"
+    val Bases     = "com.instantor.bsp" % "bspcommon-bases"     % "0.11.3"
+    val Transport = "com.instantor.bsp" % "bspcommon-transport" % "0.11.3"
   }
 
   object BspOtpProvider {
@@ -28,12 +29,12 @@ trait Publications {
   }
 
   object Consolidator {
-    val Model = "com.instantor.bsp" % "bspdsapi-consolidator" % "0.5.3"
+    val Model = "com.instantor.bsp" % "bspdsapi-consolidator" % "0.6.0"
   }
 
   object EDS {
-    val ModelInterfaces = "com.instantor.eds" %% "eds-model-interfaces" % "0.12.0"
-    val ModelServices   = "com.instantor.eds" %% "eds-model-services"   % "0.12.0"
+    val ModelInterfaces = "com.instantor.eds" %% "eds-model-interfaces" % "0.12.6"
+    val ModelServices   = "com.instantor.eds" %% "eds-model-services"   % "0.12.6"
   }
 
   object Instantor {
@@ -54,7 +55,7 @@ trait Publications {
 
   object TotaLog {
     val Interfaces = "com.instantor.totalog" % "totalog-interfaces" % "0.6.0"
-    val Transport  = "com.instantor.totalog" % "totalog-transport"  % "0.6.0"
+    val Transport  = "com.instantor.totalog" % "totalog-transport"  % "0.6.1"
     val Search     = "com.instantor.totalog" % "totalog-search"     % "0.6.0"
   }
 
