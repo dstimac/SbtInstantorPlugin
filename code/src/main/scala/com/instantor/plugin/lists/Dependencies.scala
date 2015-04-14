@@ -6,22 +6,22 @@ import sbt._
 trait Dependencies {
   val androidSDK = "com.google.android" % "android" % "4.1.1.4" % "provided"
 
-  val akkaActor   = "com.typesafe.akka" %% "akka-actor"   % "2.3.6"
-  val akkaCluster = "com.typesafe.akka" %% "akka-cluster" % "2.3.6"
-  val akkaRemote  = "com.typesafe.akka" %% "akka-remote"  % "2.3.6"
+  val akkaActor   = "com.typesafe.akka" %% "akka-actor"   % "2.3.9"
+  val akkaCluster = "com.typesafe.akka" %% "akka-cluster" % "2.3.9"
+  val akkaRemote  = "com.typesafe.akka" %% "akka-remote"  % "2.3.9"
 
   val asyncHttpClient = "com.ning" % "async-http-client" % "1.8.13"
 
-  val bouncyCastleMail     = "org.bouncycastle" % "bcmail-jdk15on" % "1.51"
-  val bouncyCastleProvider = "org.bouncycastle" % "bcprov-jdk15on" % "1.51"
-  val bouncyCastlecPGP     = "org.bouncycastle" % "bcpg-jdk15on"   % "1.51"
+  val bouncyCastleMail     = "org.bouncycastle" % "bcmail-jdk15on" % "1.52"
+  val bouncyCastleProvider = "org.bouncycastle" % "bcprov-jdk15on" % "1.52"
+  val bouncyCastlecPGP     = "org.bouncycastle" % "bcpg-jdk15on"   % "1.52"
 
-  val commonsCodec        = "commons-codec"       % "commons-codec"        % "1.9"
+  val commonsCodec        = "commons-codec"       % "commons-codec"        % "1.10"
   val commonsCollections  = "commons-collections" % "commons-collections"  % "3.2.1"
   val commonsCollections4 = "org.apache.commons"  % "commons-collections4" % "4.0"
-  val commonsCsv          = "org.apache.commons"  % "commons-csv"          % "0.1"
+  val commonsCsv          = "org.apache.commons"  % "commons-csv"          % "1.0"
   val commonsIo           = "commons-io"          % "commons-io"           % "2.4"
-  val commonsLang         = "org.apache.commons"  % "commons-lang3"        % "3.3.2"
+  val commonsLang         = "org.apache.commons"  % "commons-lang3"        % "3.4"
   val commonsLogging      = "commons-logging"     % "commons-logging"      % "1.2"
 
   val configrity = "org.streum" %% "configrity-core" % "1.0.0"
@@ -35,9 +35,9 @@ trait Dependencies {
 
   val doitCsv = "hr.element.doit" %% "doit-csv" % "0.1.7"
 
-  val doj       = "hr.element.doj" %% "doj-client" % "1.0.1"
+  val doj = "hr.element.doj" %% "doj-client" % "1.0.1"
 
-  val dslClientJava = "com.dslplatform" % "dsl-client-java" % "1.0.3"
+  val dslClientJava = "com.dslplatform" % "dsl-client-java" % "1.2.1"
 
   val etbUtil = "hr.element.etb" %% "etb-util" % "0.2.22"
   val etbLift = "hr.element.etb" %% "etb-lift" % "0.1.7"
@@ -45,19 +45,19 @@ trait Dependencies {
 
   val iorc = "org.pgscala" %% "pgscala-iorc" % "0.1.9"
 
-  val itext = "com.itextpdf" % "itextpdf" % "5.5.1"
+  val itext = "com.itextpdf" % "itextpdf" % "5.5.5"
 
-  val jettyContainer = "org.eclipse.jetty" % "jetty-webapp"      % "9.2.3.v20140905" % "container"
-  val servlet        = "javax.servlet"     % "javax.servlet-api" % "3.0.1"           % "provided"
+  val jettyContainer = "org.eclipse.jetty" % "jetty-webapp"      % "9.2.10.v20150310" % "container"
+  val servlet        = "javax.servlet"     % "javax.servlet-api" % "3.1.0"            % "provided"
 
-  val ivy = "org.apache.ivy" % "ivy" % "2.4.0-rc1"
+  val ivy = "org.apache.ivy" % "ivy" % "2.4.0"
 
-  val jodaTime    = "joda-time" % "joda-time"    % "2.5"
+  val jodaTime    = "joda-time" % "joda-time"    % "2.7"
   val jodaConvert = "org.joda"  % "joda-convert" % "1.7"
 
   val jsch = "com.jcraft" % "jsch" % "0.1.51"
 
-  val jsoup = "org.jsoup" % "jsoup" % "1.7.3"
+  val jsoup = "org.jsoup" % "jsoup" % "1.8.2"
 
   val liftCommon = "net.liftweb" %% "lift-common" % "2.6-RC1"
   val liftJson   = "net.liftweb" %% "lift-json"   % "2.6-RC1"
@@ -100,12 +100,12 @@ trait Dependencies {
   val scalaXml = "org.scala-lang.modules" %% "scala-xml" % "1.0.2"
 
   val scalaz  = "org.scalaz" %% "scalaz-core" % "6.0.4"
-  val scalaz7 = "org.scalaz" %% "scalaz-core" % "7.1.0"
+  val scalaz7 = "org.scalaz" %% "scalaz-core" % "7.1.1"
 
-  val selenate  = "net.selenate" % "selenate-client" % "0.2.16"
+  val selenate  = "net.selenate" % "selenate-client" % "0.2.27"
 
-  val seleniumFirefox = "org.seleniumhq.selenium" % "selenium-firefox-driver" % "2.42.2"
-  val seleniumServer  = "org.seleniumhq.selenium" % "selenium-server"         % "2.42.2"
+  val seleniumFirefox = "org.seleniumhq.selenium" % "selenium-firefox-driver" % "2.45.0"
+  val seleniumServer  = "org.seleniumhq.selenium" % "selenium-server"         % "2.45.0"
 
   val sprayCan     = "io.spray" %% "spray-can"     % "1.3.1"
   val sprayRouting = "io.spray" %% "spray-routing" % "1.3.1"
@@ -117,35 +117,35 @@ trait Dependencies {
 
   val tagSoup = "org.ccil.cowan.tagsoup" % "tagsoup" % "1.2.1"
 
-  val templater = "hr.ngs.templater" %% "templater" % "1.9.5-1"
+  val templater = "hr.ngs.templater" %% "templater" % "2.1.0"
 
-  val xstream   = "com.thoughtworks.xstream" % "xstream" % "1.4.7"
+  val xstream   = "com.thoughtworks.xstream" % "xstream" % "1.4.8"
 
   val zip4j = "net.lingala.zip4j" % "zip4j" % "1.3.1"
 
 
   /* Logging */
-  val akkaSlf4j = "com.typesafe.akka" %% "akka-slf4j" % "2.3.6"
+  val akkaSlf4j = "com.typesafe.akka" %% "akka-slf4j" % "2.3.9"
 
-  val logback = "ch.qos.logback" % "logback-classic" % "1.1.2"
+  val logback = "ch.qos.logback" % "logback-classic" % "1.1.3"
 
   val scalaLogging2 = "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.2"
   val scalaLogging3 = "com.typesafe.scala-logging" %% "scala-logging" % "3.1.0"
 
-  val slf4jApi       = "org.slf4j" % "slf4j-api"        % "1.7.7"
-  val log4jOverSlf4j = "org.slf4j" % "log4j-over-slf4j" % "1.7.7"
+  val slf4jApi       = "org.slf4j" % "slf4j-api"        % "1.7.12"
+  val log4jOverSlf4j = "org.slf4j" % "log4j-over-slf4j" % "1.7.12"
 
 
   /* Testing  */
 
-  val akkaTestKit = "com.typesafe.akka" %% "akka-testkit" % "2.3.6" % "test"
+  val akkaTestKit = "com.typesafe.akka" %% "akka-testkit" % "2.3.9" % "test"
 
   val jsonAssert = "org.skyscreamer" % "jsonassert" % "1.2.3" % "test"
 
-  val junit          = "junit"        % "junit"           % "4.11" % "test"
+  val junit          = "junit"        % "junit"           % "4.12" % "test"
   val junitInterface = "com.novocode" % "junit-interface" % "0.11" % "test"
 
-  val scalaTest = "org.scalatest" %% "scalatest" % "2.2.2" % "test"
+  val scalaTest = "org.scalatest" %% "scalatest" % "2.2.4" % "test"
 
   val xmlUnit = "xmlunit" % "xmlunit" % "1.5" % "test"
 }
