@@ -14,9 +14,9 @@ trait Publications {
   }
 
   object BspCommon {
-    val Commons   = "com.instantor.bsp" % "bspcommon-commons"   % "0.11.3"
-    val Bases     = "com.instantor.bsp" % "bspcommon-bases"     % "0.11.3"
-    val Transport = "com.instantor.bsp" % "bspcommon-transport" % "0.11.3"
+    val Commons   = "com.instantor.bsp" % "bspcommon-commons"   % "0.11.9"
+    val Bases     = "com.instantor.bsp" % "bspcommon-bases"     % "0.11.9"
+    val Transport = "com.instantor.bsp" % "bspcommon-transport" % "0.11.9"
   }
 
   object BspOtpProvider {
@@ -38,7 +38,7 @@ trait Publications {
   }
 
   object Instantor {
-    val Api     = "com.instantor" % "instantor-api" % "0.4.3"
+    val Api     = "com.instantor" % "instantor-api" % "0.4.4"
 
     val Commons = "com.instantor.commons" %% "instantorcommons" % "0.0.3"
   }

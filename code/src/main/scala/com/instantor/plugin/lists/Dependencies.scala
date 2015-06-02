@@ -57,7 +57,7 @@ trait Dependencies {
 
   val jsch = "com.jcraft" % "jsch" % "0.1.51"
 
-  val jsoup = "org.jsoup" % "jsoup" % "1.8.2"
+  val jsoup = "org.jsoup" % "jsoup" % "1.7.3"
 
   val liftCommon = "net.liftweb" %% "lift-common" % "2.6-RC1"
   val liftJson   = "net.liftweb" %% "lift-json"   % "2.6-RC1"
@@ -102,7 +102,7 @@ trait Dependencies {
   val scalaz  = "org.scalaz" %% "scalaz-core" % "6.0.4"
   val scalaz7 = "org.scalaz" %% "scalaz-core" % "7.1.1"
 
-  val selenate  = "net.selenate" % "selenate-client" % "0.2.27"
+  val selenate  = "net.selenate" % "selenate-client" % "0.2.29"
 
   val seleniumFirefox = "org.seleniumhq.selenium" % "selenium-firefox-driver" % "2.45.0"
   val seleniumServer  = "org.seleniumhq.selenium" % "selenium-server"         % "2.45.0"
